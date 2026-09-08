@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Canvas background -->
+  <rect width="800" height="500" rx="16" fill="url(#bg)" />
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#334155" stroke-width="2" />
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="800" height="48" rx="16" fill="#1e293b" />
+  <circle cx="28" cy="24" r="6" fill="#ef4444" />
+  <circle cx="48" cy="24" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="24" r="6" fill="#10b981" />
+  <rect x="120" y="14" width="300" height="20" rx="6" fill="#0f172a" />
+  <text x="140" y="28" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8">wms.inventory.portal/dashboard/stock-audit</text>
+  
+  <!-- Top Metric Cards -->
+  <rect x="40" y="70" width="220" height="90" rx="12" fill="#1e293b" stroke="#334155" />
+  <text x="60" y="100" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">TOTAL ACTIVE SKUS</text>
+  <text x="60" y="135" font-family="'Inter', sans-serif" font-size="28" font-weight="bold" fill="#f8fafc">14,820</text>
+  <rect x="200" y="90" width="40" height="20" rx="4" fill="#10b981" fill-opacity="0.2" />
+  <text x="208" y="104" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#10b981">+4.8%</text>
+
+  <rect x="290" y="70" width="220" height="90" rx="12" fill="#1e293b" stroke="#334155" />
+  <text x="310" y="100" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">WAREHOUSE ZONES</text>
+  <text x="310" y="135" font-family="'Inter', sans-serif" font-size="28" font-weight="bold" fill="#06b6d4">Zone A - D</text>
+
+  <rect x="540" y="70" width="220" height="90" rx="12" fill="#1e293b" stroke="#334155" />
+  <text x="560" y="100" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">PENDING DISPATCH</text>
+  <text x="560" y="135" font-family="'Inter', sans-serif" font-size="28" font-weight="bold" fill="#f59e0b">48 Orders</text>
+
+  <!-- Main Chart & Table Panel -->
+  <rect x="40" y="180" width="470" height="280" rx="12" fill="#1e293b" stroke="#334155" />
+  <text x="60" y="212" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#f8fafc">Real-Time Stock Turnover Velocity</text>
+  
+  <!-- Flow Lines -->
+  <path d="M 60 410 Q 150 320, 240 360 T 420 280 T 480 250" fill="none" stroke="url(#accent)" stroke-width="4" />
+  <path d="M 60 410 Q 150 320, 240 360 T 420 280 T 480 250 L 480 430 L 60 430 Z" fill="url(#glow)" />
+  
+  <!-- Right Audit Trail -->
+  <rect x="530" y="180" width="230" height="280" rx="12" fill="#1e293b" stroke="#334155" />
+  <text x="550" y="212" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#f8fafc">Live Audit Log</text>
+  
+  <rect x="550" y="235" width="190" height="40" rx="6" fill="#0f172a" />
+  <text x="560" y="254" font-family="'JetBrains Mono', monospace" font-size="10" fill="#10b981">INBOUND +500 SKU-402</text>
+  <text x="560" y="268" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Zone A-04 • 2m ago</text>
+
+  <rect x="550" y="285" width="190" height="40" rx="6" fill="#0f172a" />
+  <text x="560" y="304" font-family="'JetBrains Mono', monospace" font-size="10" fill="#06b6d4">OUTBOUND -120 SKU-118</text>
+  <text x="560" y="318" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Zone C-12 • 7m ago</text>
+
+  <rect x="550" y="335" width="190" height="40" rx="6" fill="#0f172a" />
+  <text x="560" y="354" font-family="'JetBrains Mono', monospace" font-size="10" fill="#f59e0b">AUDIT CHECK Zone B</text>
+  <text x="560" y="368" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Verified by Admin • 15m ago</text>
+
+  <rect x="550" y="385" width="190" height="40" rx="6" fill="#0f172a" />
+  <text x="560" y="404" font-family="'JetBrains Mono', monospace" font-size="10" fill="#818cf8">REST API Sync 200 OK</text>
+  <text x="560" y="418" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Cluster MySQL Primary</text>
+</svg>

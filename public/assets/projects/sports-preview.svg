@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="matchBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#181329" />
+    </linearGradient>
+    <linearGradient id="matchAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#matchBg)" />
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#2e1065" stroke-width="2" />
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="48" rx="16" fill="#1e113a" />
+  <circle cx="28" cy="24" r="6" fill="#ef4444" />
+  <circle cx="48" cy="24" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="24" r="6" fill="#10b981" />
+  <text x="100" y="29" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c084fc">Sports Matchmaker • React + MongoDB Hybrid</text>
+
+  <!-- Left Sidebar / Category Filter -->
+  <rect x="40" y="70" width="200" height="390" rx="12" fill="#150d29" stroke="#3b1d6b" />
+  <text x="60" y="105" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#e9d5ff">SPORTS CATEGORY</text>
+  
+  <rect x="55" y="125" width="170" height="36" rx="8" fill="url(#matchAccent)" />
+  <text x="75" y="148" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">🏸 Badminton (12)</text>
+
+  <rect x="55" y="175" width="170" height="36" rx="8" fill="#241442" />
+  <text x="75" y="198" font-family="'Inter', sans-serif" font-size="12" fill="#c4b5fd">⚽ Football / Futsal (8)</text>
+
+  <rect x="55" y="225" width="170" height="36" rx="8" fill="#241442" />
+  <text x="75" y="248" font-family="'Inter', sans-serif" font-size="12" fill="#c4b5fd">🏀 Basketball (6)</text>
+
+  <rect x="55" y="275" width="170" height="36" rx="8" fill="#241442" />
+  <text x="75" y="298" font-family="'Inter', sans-serif" font-size="12" fill="#c4b5fd">🎾 Tennis (3)</text>
+
+  <!-- Right Matches Feed -->
+  <rect x="260" y="70" width="500" height="390" rx="12" fill="#150d29" stroke="#3b1d6b" />
+  <text x="285" y="105" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Live Matchmaking Lobbies Near Bangkok</text>
+
+  <!-- Card 1 -->
+  <rect x="285" y="125" width="450" height="95" rx="10" fill="#241442" stroke="#4c1d95" />
+  <text x="305" y="152" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f5d0fe">Intermediate Doubles Match • 19:30 Today</text>
+  <text x="305" y="173" font-family="'Inter', sans-serif" font-size="12" fill="#a78bfa">📍 Bang Khen Badminton Arena • 2.4 km away</text>
+  <rect x="305" y="185" width="80" height="22" rx="4" fill="#6d28d9" />
+  <text x="315" y="200" font-family="'Inter', sans-serif" font-size="10" font-weight="bold" fill="#f5f3ff">3 / 4 PLAYERS</text>
+  <rect x="630" y="155" width="90" height="35" rx="6" fill="#10b981" />
+  <text x="655" y="177" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Join Slot</text>
+
+  <!-- Card 2 -->
+  <rect x="285" y="235" width="450" height="95" rx="10" fill="#241442" stroke="#4c1d95" />
+  <text x="305" y="262" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f5d0fe">Weekend Friendly Tournament Drill</text>
+  <text x="305" y="283" font-family="'Inter', sans-serif" font-size="12" fill="#a78bfa">📍 SPU Sports Complex • Sat 10:00 AM</text>
+  <rect x="305" y="295" width="80" height="22" rx="4" fill="#6d28d9" />
+  <text x="315" y="310" font-family="'Inter', sans-serif" font-size="10" font-weight="bold" fill="#f5f3ff">6 / 8 PLAYERS</text>
+  <rect x="630" y="265" width="90" height="35" rx="6" fill="#10b981" />
+  <text x="655" y="287" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Join Slot</text>
+
+  <!-- Card 3 -->
+  <rect x="285" y="345" width="450" height="95" rx="10" fill="#241442" stroke="#4c1d95" />
+  <text x="305" y="372" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f5d0fe">Beginner Friendly Practice Rally</text>
+  <text x="305" y="393" font-family="'Inter', sans-serif" font-size="12" fill="#a78bfa">📍 Chatuchak Court 5 • Sun 16:00 PM</text>
+  <rect x="305" y="405" width="80" height="22" rx="4" fill="#10b981" fill-opacity="0.3" stroke="#10b981" />
+  <text x="315" y="420" font-family="'Inter', sans-serif" font-size="10" font-weight="bold" fill="#86efac">1 / 4 PLAYERS</text>
+  <rect x="630" y="375" width="90" height="35" rx="6" fill="#10b981" />
+  <text x="655" y="397" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Join Slot</text>
+</svg>

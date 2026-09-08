@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="cropAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="ragGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#chatBg)" />
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#065f46" stroke-width="2" />
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="800" height="48" rx="16" fill="#021f18" />
+  <circle cx="28" cy="24" r="6" fill="#ef4444" />
+  <circle cx="48" cy="24" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="24" r="6" fill="#10b981" />
+  <rect x="110" y="14" width="360" height="20" rx="6" fill="#064e3b" />
+  <text x="125" y="28" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6ee7b7">economic-crops.ai/chat • Ollama qwen2.5:7b + RAG</text>
+
+  <!-- Left Sidebar: 14 Thai Economic Crops Knowledge Base -->
+  <rect x="35" y="65" width="220" height="400" rx="12" fill="#021f18" stroke="#065f46" />
+  <text x="50" y="95" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#6ee7b7">KNOWLEDGE BASE (14 CROPS)</text>
+
+  <g transform="translate(50, 115)">
+    <rect x="0" y="0" width="190" height="26" rx="6" fill="#064e3b" />
+    <text x="10" y="17" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">🌾 ข้าว • ข้าวโพดเลี้ยงสัตว์</text>
+
+    <rect x="0" y="32" width="190" height="26" rx="6" fill="#064e3b" />
+    <text x="10" y="49" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">🥔 มันสำปะหลัง • อ้อย</text>
+
+    <rect x="0" y="64" width="190" height="26" rx="6" fill="#064e3b" />
+    <text x="10" y="81" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">🍍 สับปะรด • ยางพารา</text>
+
+    <rect x="0" y="96" width="190" height="26" rx="6" fill="#064e3b" />
+    <text x="10" y="113" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">🍈 ทุเรียน • มังคุด • ลำไย</text>
+
+    <rect x="0" y="128" width="190" height="26" rx="6" fill="#064e3b" />
+    <text x="10" y="145" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">🌴 ปาล์มน้ำมัน • มะพร้าว • เงาะ</text>
+
+    <rect x="0" y="160" width="190" height="26" rx="6" fill="#064e3b" />
+    <text x="10" y="177" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">☕ กาแฟโรบัสต้า • อาราบิก้า</text>
+
+    <!-- SDG Badges -->
+    <rect x="0" y="210" width="190" height="70" rx="8" fill="#042f24" stroke="#047857" />
+    <text x="10" y="230" font-family="'Inter', sans-serif" font-size="10" font-weight="bold" fill="#34d399">UN SDG ALIGNMENT</text>
+    <text x="10" y="250" font-family="'Inter', sans-serif" font-size="10" fill="#a7f3d0">SDG 1: ขจัดความยากจน</text>
+    <text x="10" y="267" font-family="'Inter', sans-serif" font-size="10" fill="#a7f3d0">SDG 2: ยุติความหิวโหย (Zero Hunger)</text>
+  </g>
+
+  <!-- Right Chat Stream -->
+  <rect x="275" y="65" width="490" height="400" rx="12" fill="#03251d" stroke="#065f46" />
+
+  <!-- User Message Bubble -->
+  <rect x="420" y="90" width="330" height="55" rx="12" fill="#047857" />
+  <text x="435" y="112" font-family="'Inter', sans-serif" font-size="12" fill="#ecfdf5">ดินร่วนปนทราย ภาคอีสาน ควรปลูกพืชอะไร?</text>
+  <text x="435" y="132" font-family="'Inter', sans-serif" font-size="10" fill="#a7f3d0">User Query • Geo: Isan Region</text>
+
+  <!-- AI RAG Thinking Pill -->
+  <rect x="295" y="160" width="220" height="26" rx="13" fill="#064e3b" stroke="#10b981" />
+  <text x="310" y="177" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6ee7b7">⚡ RAG Vector Retrieval: Agri-Map</text>
+
+  <!-- AI Response Bubble -->
+  <rect x="295" y="200" width="455" height="175" rx="12" fill="#021f18" stroke="#065f46" />
+  <text x="315" y="228" font-family="'Inter', sans-serif" font-size="13" font-weight="bold" fill="#34d399">คำแนะนำจากระบบ Economic Crops AI:</text>
+  <text x="315" y="252" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">1. <tspan font-weight="bold">มันสำปะหลัง (Cassava):</tspan> ทนแล้งได้ดี ระบายน้ำเร็ว เหมาะกับดินร่วนปนทราย</text>
+  <text x="315" y="274" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">2. <tspan font-weight="bold">อ้อยโรงงาน (Sugarcane):</tspan> ให้ผลผลิตสูงในพื้นที่ดอน</text>
+  <text x="315" y="296" font-family="'Inter', sans-serif" font-size="11" fill="#ecfdf5">3. <tspan font-weight="bold">การจัดการศัตรูพืช:</tspan> เฝ้าระวังเพลี้ยแป้งมันสำปะหลัง โดยใช้แตนเบียน</text>
+  <text x="315" y="322" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6ee7b7">Vector Distance: 0.18 • High Relevance Match</text>
+  <text x="315" y="340" font-family="'Inter', sans-serif" font-size="10" fill="#94a3b8">แหล่งข้อมูลอ้างอิง: กรมพัฒนาที่ดิน (LDD) &amp; Agri-Map Thailand</text>
+
+  <!-- Prompt Input Bar -->
+  <rect x="295" y="395" width="455" height="50" rx="10" fill="#021f18" stroke="#065f46" />
+  <text x="315" y="425" font-family="'Inter', sans-serif" font-size="12" fill="#6ee7b7">ถามข้อมูลสภาพดิน ปริมาณน้ำ หรือวิธีป้องกันโรคพืช...</text>
+  <rect x="685" y="405" width="55" height="30" rx="6" fill="url(#cropAccent)" />
+  <text x="698" y="424" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#022c22">Send</text>
+</svg>
