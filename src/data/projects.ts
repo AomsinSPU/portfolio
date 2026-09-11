@@ -1,4 +1,5 @@
 import type { Project } from '../types';
+import { getAssetUrl } from '../utils/asset';
 
 export const projectsData: Project[] = [
   {
@@ -63,15 +64,15 @@ export const projectsData: Project[] = [
       th: 'เข้าใจการเชื่อมต่อหน้าบ้าน-หลังบ้านด้วย ASP.NET Core MVC อย่างลึกซึ้ง, การใช้งาน Entity Framework Core กับ MySQL, ระบบความปลอดภัย BCrypt และการออกแบบ Data Flow Diagram (DFD)'
     },
     githubUrl: 'https://github.com/AomsinSPU',
-    image: '/assets/projects/badminton-home.png',
+    image: getAssetUrl('/assets/projects/badminton-home.png'),
     screenshots: [
-      '/assets/projects/badminton-home.png',
-      '/assets/projects/badminton-booking-detail.png',
-      '/assets/projects/badminton-payment.png',
-      '/assets/projects/badminton-history.png',
-      '/assets/projects/badminton-register.png',
-      '/assets/projects/badminton-flow.jpg',
-      '/assets/projects/badminton-dfd.jpg'
+      getAssetUrl('/assets/projects/badminton-home.png'),
+      getAssetUrl('/assets/projects/badminton-booking-detail.png'),
+      getAssetUrl('/assets/projects/badminton-payment.png'),
+      getAssetUrl('/assets/projects/badminton-history.png'),
+      getAssetUrl('/assets/projects/badminton-register.png'),
+      getAssetUrl('/assets/projects/badminton-flow.jpg'),
+      getAssetUrl('/assets/projects/badminton-dfd.jpg')
     ]
   },
   {
@@ -136,13 +137,13 @@ export const projectsData: Project[] = [
       th: 'เชี่ยวชาญการสร้าง Middleware Chain ใน Express, การทำ Authentication ด้วย OAuth และ Passport, การออกแบบโมเดล NoSQL ด้วย Mongoose และการจัดทำเอกสาร API ด้วย Swagger'
     },
     githubUrl: 'https://github.com/Theeraphath/kickhub',
-    image: '/assets/projects/kickhub-banner.png',
+    image: getAssetUrl('/assets/projects/kickhub-banner.png'),
     screenshots: [
-      '/assets/projects/kickhub-banner.png',
-      '/assets/projects/kickhub-home.png',
-      '/assets/projects/kickhub-search.png',
-      '/assets/projects/kickhub-login-desktop.png',
-      '/assets/projects/kickhub-login-mobile.png'
+      getAssetUrl('/assets/projects/kickhub-banner.png'),
+      getAssetUrl('/assets/projects/kickhub-home.png'),
+      getAssetUrl('/assets/projects/kickhub-search.png'),
+      getAssetUrl('/assets/projects/kickhub-login-desktop.png'),
+      getAssetUrl('/assets/projects/kickhub-login-mobile.png')
     ]
   },
   {
@@ -207,7 +208,7 @@ export const projectsData: Project[] = [
       th: 'เข้าใจกระบวนการทำงานของ RAG อย่างถ่องแท้, การรัน Local LLM ด้วย Ollama, หลักการทำงานของ Vector Database และการนำเทคโนโลยี AI มาสร้างประโยชน์ต่อสังคม'
     },
     githubUrl: 'https://github.com/AomsinSPU',
-    image: '/assets/projects/chatbot-preview.svg'
+    image: getAssetUrl('/assets/projects/chatbot-preview.svg')
   },
   {
     id: 'wms-system',
@@ -269,6 +270,6 @@ export const projectsData: Project[] = [
       th: 'ได้เรียนรู้เชิงลึกเกี่ยวกับการควบคุม Transaction ในฐานข้อมูล, การทำ Indexing เพื่อค้นหา SKU นับหมื่นรายการได้อย่างรวดเร็ว, และการจัดโครงสร้าง Service Layer'
     },
     githubUrl: 'https://github.com/AomsinSPU',
-    image: '/assets/projects/wms-preview.svg'
+    image: getAssetUrl('/assets/projects/wms-preview.svg')
   }
 ];

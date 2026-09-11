@@ -10,6 +10,7 @@ import { Card } from '../common/Card';
 import { Badge } from '../common/Badge';
 import { Button } from '../common/Button';
 import { ProjectDetailModal } from './ProjectDetailModal';
+import { getAssetUrl } from '../../utils/asset';
 
 type ProjectFilter = 'all' | 'fullstack' | 'backend' | 'systems';
 
@@ -67,7 +68,7 @@ export const Projects: React.FC = () => {
                     className="w-full h-auto max-h-[380px] object-cover rounded-lg shadow-2xl group-hover:scale-[1.02] transition-transform duration-500 cursor-pointer"
                     onClick={() => setSelectedProject(featuredProject)}
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/assets/projects/court-preview.svg';
+                      (e.target as HTMLImageElement).src = getAssetUrl('/assets/projects/court-preview.svg');
                     }}
                   />
                   <div className="absolute top-6 left-6">
@@ -194,7 +195,7 @@ export const Projects: React.FC = () => {
                         alt={loc(project.title)}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/assets/projects/court-preview.svg';
+                          (e.target as HTMLImageElement).src = getAssetUrl('/assets/projects/court-preview.svg');
                         }}
                       />
                       <div className="absolute top-3 right-3">

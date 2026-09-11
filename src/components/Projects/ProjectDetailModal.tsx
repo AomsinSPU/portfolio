@@ -7,6 +7,7 @@ import { ArchitectureDiagram } from '../common/ArchitectureDiagram';
 import { GithubIcon } from '../common/SocialIcons';
 import { useLanguage } from '../../context/LanguageContext';
 import { ExternalLink, AlertTriangle, Lightbulb, CheckCircle2, Layers } from 'lucide-react';
+import { getAssetUrl } from '../../utils/asset';
 
 interface ProjectDetailModalProps {
   project: Project | null;
@@ -49,7 +50,7 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
               alt={loc(project.title)}
               className="w-full h-full object-contain object-center"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = '/assets/projects/wms-preview.svg';
+                (e.target as HTMLImageElement).src = getAssetUrl('/assets/projects/wms-preview.svg');
               }}
             />
             <div className="absolute top-3 right-3 flex items-center gap-2">

@@ -1,4 +1,5 @@
 import type { CertificateItem } from '../types';
+import { getAssetUrl } from '../utils/asset';
 
 export const certificatesData: CertificateItem[] = [
   {
@@ -11,7 +12,7 @@ export const certificatesData: CertificateItem[] = [
     date: '2024',
     credentialId: 'SPU-FSD-2024-8821',
     verifyUrl: 'https://github.com/AomsinSPU',
-    image: '/assets/projects/cert-fullstack.svg',
+    image: getAssetUrl('/assets/projects/cert-fullstack.svg'),
     badge: 'Full Stack'
   },
   {
@@ -24,7 +25,7 @@ export const certificatesData: CertificateItem[] = [
     date: '2024',
     credentialId: 'MS-NET-991204',
     verifyUrl: 'https://github.com/AomsinSPU',
-    image: '/assets/projects/cert-dotnet.svg',
+    image: getAssetUrl('/assets/projects/cert-dotnet.svg'),
     badge: 'Backend & C#'
   },
   {
@@ -37,7 +38,7 @@ export const certificatesData: CertificateItem[] = [
     date: '2023',
     credentialId: 'DB-SQL-77301',
     verifyUrl: 'https://github.com/AomsinSPU',
-    image: '/assets/projects/cert-db.svg',
+    image: getAssetUrl('/assets/projects/cert-db.svg'),
     badge: 'Database'
   },
   {
@@ -50,7 +51,7 @@ export const certificatesData: CertificateItem[] = [
     date: '2023',
     credentialId: 'SIAMTECH-DG-3720',
     verifyUrl: 'https://github.com/AomsinSPU',
-    image: '/assets/projects/cert-graphics.svg',
+    image: getAssetUrl('/assets/projects/cert-graphics.svg'),
     badge: 'Digital Assets'
   }
 ];

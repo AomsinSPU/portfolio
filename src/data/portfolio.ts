@@ -1,4 +1,5 @@
 import type { DocumentInfo } from '../types';
+import { getAssetUrl } from '../utils/asset';
 
 export const personalInfo = {
   name: 'Saral Nithisombatsakul',
@@ -23,7 +24,7 @@ export const personalInfo = {
   githubUsername: 'AomsinSPU',
   linkedin: 'https://linkedin.com/in/saral-nithisombatsakul-a9042432b',
   linkedinUsername: 'saral-nithisombatsakul',
-  profileImage: '/assets/profile.jpg',
+  profileImage: getAssetUrl('/assets/profile.jpg'),
   militaryStatus: {
     en: 'Exempted (Completed Military Service Screening)',
     th: 'ได้รับการยกเว้นแล้ว (ผ่านการตรวจเลือกทหารเรียบร้อยแล้ว)'
@@ -63,7 +64,7 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
         'กระชับ ชัดเจน พร้อมสำหรับการสัมภาษณ์งาน'
       ]
     },
-    pdfUrl: '/assets/resume.pdf',
+    pdfUrl: getAssetUrl('/assets/resume.pdf'),
     filename: 'Saral_Nithisombatsakul_Resume.pdf',
     lastUpdated: 'September 2026'
   },
@@ -95,7 +96,7 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
         'ประวัติการออกแบบโมเดล 3D ดิจิทัลและงานตรวจสอบข้อมูลองค์กร'
       ]
     },
-    pdfUrl: '/assets/resume.pdf', // Can be used as CV / Resume base
+    pdfUrl: getAssetUrl('/assets/resume.pdf'), // Can be used as CV / Resume base
     filename: 'Saral_Nithisombatsakul_CV.pdf',
     lastUpdated: 'September 2026'
   }
