@@ -112,7 +112,8 @@ export const DocumentViewerModal: React.FC<DocumentViewerModalProps> = ({
                   <img
                     src={personalInfo.profileImage}
                     alt="สรัล นิธิสมบัติสกุล"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
+                    style={{ objectPosition: 'center top' }}
                   />
                 </div>
               </div>
@@ -304,7 +305,8 @@ export const DocumentViewerModal: React.FC<DocumentViewerModalProps> = ({
                   <img
                     src={personalInfo.profileImage}
                     alt="สรัล นิธิสมบัติสกุล"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
+                    style={{ objectPosition: 'center top' }}
                   />
                 </div>
               </div>
