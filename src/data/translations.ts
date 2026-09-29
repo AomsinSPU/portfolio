@@ -199,7 +199,7 @@ export const translations = {
     },
     copyright: {
       en: '© 2026 Saral Nithisombatsakul. All rights reserved.',
-      th: '© 2026 ศรัล นิธิสมบัติสกุล. สงวนลิขสิทธิ์ทั้งหมด'
+      th: '© 2026 สรัล นิธิสมบัติสกุล. สงวนลิขสิทธิ์ทั้งหมด'
     },
     backToTop: { en: 'Back to Top', th: 'กลับสู่ด้านบน' }
   }

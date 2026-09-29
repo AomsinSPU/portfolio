@@ -45,12 +45,12 @@ export const educationData: EducationItem[] = [
     achievements: {
       en: [
         'Maintained top-tier academic performance with GPAX 3.82',
-        'Architected comprehensive full-stack course projects (WMS, Badminton Court Scheduler, Sports Matchmaker)',
+        'Architected comprehensive full-stack course projects (Badminton Court Scheduler, Sports Matchmaker, AI Crop Advisor)',
         'Served as technical lead across multiple software project development sprints'
       ],
       th: [
         'รักษาผลการเรียนระดับยอดเยี่ยมต่อเนื่องด้วยเกรดเฉลี่ยสะสม 3.82',
-        'เป็นผู้พัฒนาหลักในโครงการซอฟต์แวร์ระบบจำลองคลังสินค้า และระบบจองสนาม',
+        'เป็นผู้พัฒนาหลักในโครงการซอฟต์แวร์ระบบจองสนามแบดมินตัน, KickHub และระบบ AI แนะนำพืชเศรษฐกิจ',
         'นำเสนอโครงงานวิศวกรรมซอฟต์แวร์ที่เน้นการใช้งานได้จริงในระดับภาคธุรกิจ'
       ]
     }

@@ -3,7 +3,7 @@ import { getAssetUrl } from '../utils/asset';
 
 export const personalInfo = {
   name: 'Saral Nithisombatsakul',
-  thaiName: 'ศรัล นิธิสมบัติสกุล',
+  thaiName: 'สรัล นิธิสมบัติสกุล',
   nickname: 'Aomsin',
   thaiNickname: 'ออมสิน',
   role: {
@@ -39,8 +39,8 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
   resume: {
     type: 'resume',
     title: {
-      en: 'Software Developer Resume',
-      th: 'เรซูเม่ตำแหน่ง Software Developer'
+      en: 'Software Developer Resume (Thai)',
+      th: 'เรซูเม่ตำแหน่ง Software Developer (ฉบับภาษาไทย)'
     },
     subtitle: {
       en: '1-Page Concise Overview for Tech Recruiters & Hiring Managers',
@@ -54,25 +54,25 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
       en: [
         'Single-page ATS-optimized format',
         'Direct focus on Full-Stack / Backend software development roles',
-        'Summarized key metrics (GPAX 3.82, WMS & Booking systems, Nitori Logistics & 3D Freelance)',
+        'Summarized key metrics (GPAX 3.82, Badminton & KickHub platforms, 3D Asset Freelance)',
         'Compact technical stack breakdown'
       ],
       th: [
         'ฟอร์แมต 1 หน้ากระดาษ เหมาะสำหรับการสแกนของระบบรับสมัครงาน',
         'โฟกัสตำแหน่ง Full-Stack / Backend Developer โดยตรง',
-        'สรุปข้อมูลเชิงสถิติ (GPAX 3.82, ระบบ WMS, จองสนาม, ประสบการณ์ Nitori & 3D)',
+        'สรุปข้อมูลเชิงสถิติ (GPAX 3.82, ระบบจองสนามแบดมินตัน, KickHub, ประสบการณ์ 3D)',
         'กระชับ ชัดเจน พร้อมสำหรับการสัมภาษณ์งาน'
       ]
     },
-    pdfUrl: getAssetUrl('/assets/resume.pdf'),
-    filename: 'Saral_Nithisombatsakul_Resume.pdf',
-    lastUpdated: 'September 2026'
+    pdfUrl: getAssetUrl('/assets/resume-thai.pdf'),
+    filename: 'สรัล_นิธิสมบัติสกุล_Resume_TH.pdf',
+    lastUpdated: 'กันยายน 2569'
   },
   cv: {
     type: 'cv',
     title: {
-      en: 'Comprehensive Curriculum Vitae (CV)',
-      th: 'ประวัติฉบับเต็ม (Curriculum Vitae)'
+      en: 'Comprehensive Curriculum Vitae (CV Thai)',
+      th: 'ประวัติฉบับเต็ม (CV ฉบับภาษาไทย)'
     },
     subtitle: {
       en: 'Detailed Academic, Technical Systems & Cross-Domain Portfolio',
@@ -96,8 +96,8 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
         'ประวัติการออกแบบโมเดล 3D ดิจิทัลและงานตรวจสอบข้อมูลองค์กร'
       ]
     },
-    pdfUrl: getAssetUrl('/assets/resume.pdf'), // Can be used as CV / Resume base
-    filename: 'Saral_Nithisombatsakul_CV.pdf',
-    lastUpdated: 'September 2026'
+    pdfUrl: getAssetUrl('/assets/cv-thai.pdf'),
+    filename: 'สรัล_นิธิสมบัติสกุล_CV_TH.pdf',
+    lastUpdated: 'กันยายน 2569'
   }
 };

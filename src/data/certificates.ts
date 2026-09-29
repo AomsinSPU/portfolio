@@ -16,30 +16,30 @@ export const certificatesData: CertificateItem[] = [
     badge: 'Full Stack'
   },
   {
-    id: 'cert-dotnet-core',
+    id: 'cert-microsoft-learn',
     title: {
-      en: 'Enterprise Application Development with ASP.NET Core & C#',
-      th: 'การพัฒนาแอปพลิเคชันระดับองค์กรด้วย ASP.NET Core และ C#'
+      en: 'Microsoft Learn Achievements & Applied Skills Badges',
+      th: 'เกียรติบัตรและความสำเร็จ Microsoft Learn (Applied Skills & Badges)'
     },
-    issuer: 'Microsoft Learn / Advanced Software Track',
-    date: '2024',
-    credentialId: 'MS-NET-991204',
-    verifyUrl: 'https://github.com/AomsinSPU',
+    issuer: 'Microsoft Learn',
+    date: '2024 - 2026',
+    credentialId: 'MS-LEARN-ACHIEVEMENTS',
+    verifyUrl: 'https://learn.microsoft.com/th-th/users/me/achievements#badges-section',
     image: getAssetUrl('/assets/projects/cert-dotnet.svg'),
-    badge: 'Backend & C#'
+    badge: 'Microsoft Badges'
   },
   {
-    id: 'cert-database-sql',
+    id: 'cert-aws-genai',
     title: {
-      en: 'Relational Database Architecture & SQL Performance Tuning',
-      th: 'สถาปัตยกรรมฐานข้อมูลเชิงสัมพันธ์และการเพิ่มประสิทธิภาพคำสั่ง SQL'
+      en: 'AWS Academy Graduate - Generative AI Foundations',
+      th: 'AWS Academy Graduate - Generative AI Foundations'
     },
-    issuer: 'Data Engineering Academy',
-    date: '2023',
-    credentialId: 'DB-SQL-77301',
-    verifyUrl: 'https://github.com/AomsinSPU',
-    image: getAssetUrl('/assets/projects/cert-db.svg'),
-    badge: 'Database'
+    issuer: 'Amazon Web Services (AWS Training & Certification)',
+    date: '2024',
+    credentialId: 'AWS-GENAI-FOUNDATIONS',
+    verifyUrl: 'https://aws.amazon.com/training/',
+    image: getAssetUrl('/assets/projects/chatbot-preview.svg'),
+    badge: 'Cloud & AI'
   },
   {
     id: 'cert-digital-graphics',

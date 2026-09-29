@@ -23,13 +23,13 @@ export const experienceData: ExperienceItem[] = [
     responsibilities: {
       en: [
         'Managed inventory flow within the warehouse, ensuring organized stock distribution and precise product placement.',
-        'Applied real-world warehouse logistics principles which directly informed the technical design of the Warehouse Management System (WMS) project.',
+        'Applied real-world warehouse logistics principles, inventory optimization, and meticulous tracking accuracy.',
         'Delivered professional, high-standard customer service in a high-volume, fast-paced retail environment.',
         'Collaborated with floor managers to audit physical stock counts against enterprise ERP stock registers.'
       ],
       th: [
         'บริหารจัดการการจัดเรียงและการไหลเวียนของสินค้าในคลังสินค้า เพื่อให้การกระจายสินค้าเป็นไปอย่างเป็นระบบและถูกต้อง',
-        'นำประสบการณ์หน้างานด้านโลจิสติกส์จริงมาใช้ออกแบบฟังก์ชันและโครงสร้างของโปรเจกต์ Warehouse Management System (WMS)',
+        'นำประสบการณ์หน้างานด้านโลจิสติกส์จริง การบริหารการไหลเวียนสินค้า และการตรวจสอบสต็อกอย่างเป็นระบบ',
         'ส่งมอบบริการระดับมาตรฐานญี่ปุ่นในสภาพแวดล้อมธุรกิจรีเทลที่มีความรวดเร็วและลูกค้าหนาแน่น',
         'ร่วมมือกับหัวหน้างานในการตรวจสอบและตรวจนับสต็อกสินค้าจริงเทียบกับระบบฐานข้อมูลของบริษัท'
       ]

@@ -50,7 +50,7 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
               alt={loc(project.title)}
               className="w-full h-full object-contain object-center"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = getAssetUrl('/assets/projects/wms-preview.svg');
+                (e.target as HTMLImageElement).src = getAssetUrl('/assets/projects/court-preview.svg');
               }}
             />
             <div className="absolute top-3 right-3 flex items-center gap-2">

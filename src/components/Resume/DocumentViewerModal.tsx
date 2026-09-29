@@ -136,36 +136,37 @@ export const DocumentViewerModal: React.FC<DocumentViewerModalProps> = ({
               <div className="space-y-3">
                 <div>
                   <div className="flex justify-between items-baseline font-bold text-xs sm:text-sm text-slate-900">
-                    <span>Warehouse Management System (WMS)</span>
+                    <span>Badminton Court Booking &amp; Management System (BadmitonNaJa)</span>
                     <span className="font-mono text-xs font-normal text-slate-600">Full-Stack Developer</span>
                   </div>
                   <ul className="list-disc list-inside text-xs text-slate-700 mt-1 space-y-0.5">
-                    <li>Co-developed responsive web application for inventory tracking, real-time stock reporting, and analysis.</li>
-                    <li>Constructed scalable RESTful APIs utilizing Node.js &amp; Express to seamlessly handle stock adjustments.</li>
-                    <li>Implemented optimized relational database schemas in MySQL ensuring strict ACID transactional integrity.</li>
+                    <li>Engineered full-stack facility reservation platform using ASP.NET Core MVC (C#) and MySQL.</li>
+                    <li>Built zero-collision scheduling algorithms eliminating double-booking conflicts across court slots.</li>
+                    <li>Designed automated peak/off-peak pricing rules, member discount tiers, and payment slip upload pipeline.</li>
                   </ul>
                 </div>
 
                 <div>
                   <div className="flex justify-between items-baseline font-bold text-xs sm:text-sm text-slate-900">
-                    <span>Badminton Court Booking &amp; Management System</span>
-                    <span className="font-mono text-xs font-normal text-slate-600">Full-Stack Developer</span>
+                    <span>KickHub - Sports Venue &amp; Matchmaking System</span>
+                    <span className="font-mono text-xs font-normal text-slate-600">Backend Developer</span>
                   </div>
                   <ul className="list-disc list-inside text-xs text-slate-700 mt-1 space-y-0.5">
-                    <li>Engineered web app for court reservations using ASP.NET Core MVC (C#) and MS SQL Server.</li>
-                    <li>Built zero-collision scheduling algorithms eliminating double-booking conflicts across court slots.</li>
+                    <li>Engineered RESTful backend microservices utilizing Node.js, Express, MongoDB (Mongoose), and MySQL.</li>
+                    <li>Implemented token-based JWT and OAuth strategies for secure social player authentication.</li>
+                    <li>Designed modular Express controller-service layers and automated API documentation via Swagger UI.</li>
                   </ul>
                 </div>
 
                 {activeDocType === 'cv' && (
                   <div>
                     <div className="flex justify-between items-baseline font-bold text-xs sm:text-sm text-slate-900">
-                      <span>Sports Venue &amp; Matchmaking Application</span>
-                      <span className="font-mono text-xs font-normal text-slate-600">Full-Stack Developer</span>
+                      <span>Economic Crops Chat - AI Crop Advisor &amp; RAG System</span>
+                      <span className="font-mono text-xs font-normal text-slate-600">Full-Stack &amp; AI Developer</span>
                     </div>
                     <ul className="list-disc list-inside text-xs text-slate-700 mt-1 space-y-0.5">
-                      <li>Engineered hybrid database architecture combining SQL (venues) and NoSQL/MongoDB (match feeds).</li>
-                      <li>Developed intuitive real-time user browsing interface using React.js and Tailwind CSS.</li>
+                      <li>Developed AI consultation web interface using React.js, Tailwind CSS, and local LLMs via Ollama.</li>
+                      <li>Implemented practical Retrieval-Augmented Generation (RAG) pipeline for agricultural query accuracy.</li>
                     </ul>
                   </div>
                 )}
@@ -183,7 +184,7 @@ export const DocumentViewerModal: React.FC<DocumentViewerModalProps> = ({
                     <span>Part-Time Retail &amp; Logistics Associate — Nitori Retail</span>
                     <span className="font-mono text-slate-600 font-normal">May 2025 – Jul 2025</span>
                   </div>
-                  <p className="text-slate-700">Managed warehouse inventory flow and precision stock placement; applied operational principles to WMS project.</p>
+                  <p className="text-slate-700">Managed warehouse inventory flow, precision stock placement, and high-accuracy ERP reconciliation.</p>
                 </div>
                 <div>
                   <div className="flex justify-between font-bold text-slate-900">

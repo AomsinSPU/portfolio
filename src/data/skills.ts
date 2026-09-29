@@ -72,7 +72,7 @@ export const skillsData: SkillItem[] = [
       en: 'High-performance RESTful APIs, modular router controllers, middleware chains, Multer file pipelines, and CORS.',
       th: 'การสร้าง REST APIs ประสิทธิภาพสูง, มิดเดิลแวร์, Multer อัปโหลดไฟล์, และระบบความปลอดภัย CORS'
     },
-    experience: { en: 'KickHub, Chatbot & WMS', th: 'KickHub, AI Chatbot และ WMS' }
+    experience: { en: 'KickHub & Chatbot', th: 'KickHub และ AI Chatbot' }
   },
   {
     name: 'React.js',
@@ -82,7 +82,7 @@ export const skillsData: SkillItem[] = [
       en: 'Component-driven UI, custom hooks, context state management, responsive designs, and client-side routing.',
       th: 'การสร้าง UI แบบ Component-Driven, Custom Hooks, Context State และ Responsive Design'
     },
-    experience: { en: 'Portfolio, Chatbot & WMS', th: 'พอร์ตโฟลิโอ, แชตบอต และ WMS' }
+    experience: { en: 'Portfolio & Chatbot', th: 'พอร์ตโฟลิโอ และ แชตบอต' }
   },
   {
     name: 'Tailwind CSS',
@@ -114,7 +114,7 @@ export const skillsData: SkillItem[] = [
       en: 'Relational schema design, foreign key constraints, ACID transactions, and Pomelo EF Core integration.',
       th: 'การออกแบบตาราง Foreign Keys ความสัมพันธ์ระหว่างตาราง ทรานแซกชัน ACID และเชื่อมต่อ Pomelo EF Core'
     },
-    experience: { en: 'BadmintonNaJa & WMS', th: 'ระบบแบดมินตัน & WMS' }
+    experience: { en: 'BadmintonNaJa Platform', th: 'ระบบจองสนามแบดมินตัน' }
   },
   {
     name: 'MongoDB & Mongoose',

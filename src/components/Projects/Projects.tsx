@@ -28,7 +28,7 @@ export const Projects: React.FC = () => {
 
   const filteredProjects = projectsData.filter((project) => {
     if (filter === 'all') return true;
-    if (filter === 'systems') return project.id === 'wms-system' || project.id === 'badminton-booking' || project.id === 'crop-chatbot';
+    if (filter === 'systems') return project.id === 'badminton-booking' || project.id === 'crop-chatbot';
     return project.category === filter;
   });
 

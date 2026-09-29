@@ -21,7 +21,7 @@ export const About: React.FC = () => {
       icon: <Layers className="w-5 h-5 text-primary-500" />,
       value: t('about.stats.projects.value'),
       label: t('about.stats.projects.label'),
-      detail: 'WMS, Booking, Matches',
+      detail: 'Booking, Matchmaker, AI Chat',
     },
     {
       key: 'tech',
