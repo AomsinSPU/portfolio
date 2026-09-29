@@ -250,6 +250,13 @@ export const DocumentViewerModal: React.FC<DocumentViewerModalProps> = ({
                         </div>
                         <p className="text-slate-700">วิทยาการคอมและนวัตกรรมการพัฒนาซอฟต์แวร์ (GPAX 3.82)</p>
                       </div>
+                      <div>
+                        <div className="flex justify-between items-baseline text-slate-900 font-bold">
+                          <span>วิทยาลัยเทคโนโลยีสยาม (สยามเทค)</span>
+                          <span className="font-mono text-slate-500 font-normal">2021 - 2023</span>
+                        </div>
+                        <p className="text-slate-700">ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) ดิจิทัลกราฟิก (GPAX 3.72)</p>
+                      </div>
                     </div>
                   </div>
 
@@ -385,14 +392,18 @@ export const DocumentViewerModal: React.FC<DocumentViewerModalProps> = ({
                 <h3 className="text-xs font-bold uppercase tracking-wider border-b border-slate-300 pb-1 mb-3 text-slate-900">
                   การศึกษา (EDUCATION)
                 </h3>
-                <div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between">
-                      <p className="font-bold text-slate-900 text-xs sm:text-sm">มหาวิทยาลัยศรีปทุม</p>
-                      <span className="text-[11px] font-mono text-slate-500">ปีที่คาดว่าจะสำเร็จการศึกษา: 2570</span>
-                    </div>
+                    <p className="font-bold text-slate-900 text-xs sm:text-sm">มหาวิทยาลัยศรีปทุม</p>
                     <p className="text-slate-600 mt-0.5">คณะเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์และนวัตกรรมซอฟต์แวร์</p>
-                    <p className="text-xs font-bold text-primary-700 mt-1">เกรดเฉลี่ยปัจจุบัน: 3.82</p>
+                    <p className="text-[11px] font-mono text-slate-500 mt-1">ปีที่คาดว่าจะสำเร็จการศึกษา: 2570</p>
+                    <p className="text-xs font-bold text-primary-700 mt-0.5">เกรดเฉลี่ยปัจจุบัน: 3.82</p>
+                  </div>
+                  <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                    <p className="font-bold text-slate-900 text-xs sm:text-sm">วิทยาลัยเทคโนโลยีสยาม (สยามเทค)</p>
+                    <p className="text-slate-600 mt-0.5">ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) สาขาคอมพิวเตอร์กราฟิกดิจิทัล</p>
+                    <p className="text-[11px] font-mono text-slate-500 mt-1">ปีที่สำเร็จการศึกษา: 2566</p>
+                    <p className="text-xs font-bold text-primary-700 mt-0.5">เกรดเฉลี่ย: 3.72</p>
                   </div>
                 </div>
               </div>

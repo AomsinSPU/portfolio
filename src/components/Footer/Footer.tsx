@@ -99,7 +99,7 @@ export const Footer: React.FC = () => {
             <p className="text-xs text-slate-500 leading-relaxed">
               Sripatum University • Computer Science
               <br />
-              B.Sc. in Software Innovation & Full-Stack Development
+              High Vocational in Digital Graphics (Siamtech)
               <br />
               Current GPAX: <span className="text-accent-cyan font-bold">3.82</span>
             </p>

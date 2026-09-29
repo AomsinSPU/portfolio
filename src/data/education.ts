@@ -54,5 +54,55 @@ export const educationData: EducationItem[] = [
         'นำเสนอโครงงานวิศวกรรมซอฟต์แวร์ที่เน้นการใช้งานได้จริงในระดับภาคธุรกิจ'
       ]
     }
+  },
+  {
+    id: 'siamtech',
+    institution: {
+      en: 'Siam Technological College (Siamtech)',
+      th: 'วิทยาลัยเทคโนโลยีสยาม (สยามเทค)'
+    },
+    degree: {
+      en: 'High Vocational Certificate (ปวส.) in Digital Graphics',
+      th: 'ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) สาขาวิชาดิจิทัลกราฟิก'
+    },
+    major: {
+      en: 'Digital Media, Visual Communication & 3D Interactive Assets',
+      th: 'สื่อดิจิทัล การออกแบบกราฟิกเพื่อการสื่อสาร และการสร้างโมเดล 3D'
+    },
+    period: {
+      en: 'Graduated: March 2023',
+      th: 'สำเร็จการศึกษา: มีนาคม 2023'
+    },
+    gpax: '3.72 / 4.00',
+    status: {
+      en: 'Graduated with High Distinction',
+      th: 'สำเร็จการศึกษาด้วยผลการเรียนดีเยี่ยม'
+    },
+    highlightCoursework: {
+      en: [
+        '3D Modeling & Digital Asset Pipeline',
+        'Visual Design Principles & Typography Hierarchy',
+        'User Interface Design & Interactive Digital Media',
+        'Digital Photography, Lighting & Texture Mapping'
+      ],
+      th: [
+        'การขึ้นโมเดล 3D และไปป์ไลน์การจัดการดิจิทัลแอสเซท',
+        'หลักการออกแบบภาพและลำดับขั้นทางตัวอักษร (Typography)',
+        'การออกแบบส่วนติดต่อผู้ใช้ (UI Design) และสื่อดิจิทัลอินเตอร์แอคทีฟ',
+        'การจัดแสง การสร้างเท็กซ์เจอร์ และองค์ประกอบภาพ'
+      ]
+    },
+    achievements: {
+      en: [
+        'Graduated with excellent standing (GPAX 3.72)',
+        'Built solid aesthetic and UI/UX instincts that elevate modern web frontends',
+        'Successfully completed practical digital asset freelance commissions during studies'
+      ],
+      th: [
+        'สำเร็จการศึกษาด้วยเกรดเฉลี่ย 3.72',
+        'วางรากฐานความเข้าใจด้าน UI/UX และศิลปะที่นำมาต่อยอดการทำหน้าบ้านเว็บให้สวยงาม',
+        'สร้างสรรค์ผลงาน 3D ให้กับลูกค้าระดับออนไลน์ในระหว่างศึกษา'
+      ]
+    }
   }
 ];

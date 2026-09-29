@@ -86,13 +86,13 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
       en: [
         'Complete work history (Trump shop 3D, AIA Data Entry, 4 Mangkon Graphic)',
         'In-depth breakdown of Languages, Frameworks, Databases & Methodologies',
-        'Academic credentials: B.Sc. in Computer Science & Software Innovation SPU (GPAX 3.82)',
+        'Academic credentials: Siamtech High Vocational (3.72) & SPU Computer Science (3.82)',
         'Formal and standardized presentation for enterprise recruitment'
       ],
       th: [
         'บันทึกประวัติการทำงานจริงอย่างละเอียด (Trump shop 3D, AIA Data Entry, 4 มังกร)',
         'แจกแจงทักษะเทคนิคเชิงลึกครบทั้ง Languages, Frameworks, Databases และ Tools',
-        'ข้อมูลการศึกษา ป.ตรี วิทยาการคอมพิวเตอร์และนวัตกรรมซอฟต์แวร์ ม.ศรีปทุม (GPAX 3.82)',
+        'ข้อมูลการศึกษา ปวส. สยามเทค (3.72) และ ป.ตรี มหาวิทยาลัยศรีปทุม (3.82)',
         'รูปแบบเอกสารทางการ เหมาะสำหรับการยื่นสมัครงานและองค์กรชั้นนำ'
       ]
     },
