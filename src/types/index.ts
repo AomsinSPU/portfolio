@@ -77,6 +77,7 @@ export interface CertificateItem {
   date: string;
   credentialId?: string;
   verifyUrl?: string;
+  pdfUrl?: string;
   image: string;
   badge: string;
 }

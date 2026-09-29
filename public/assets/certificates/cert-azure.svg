@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="azureBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#0d2b45" />
+    </linearGradient>
+    <linearGradient id="azureGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0078d4" />
+      <stop offset="100%" stop-color="#50e6ff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="550" fill="url(#azureBg)" rx="16" />
+  <rect x="20" y="20" width="760" height="510" rx="12" fill="none" stroke="url(#azureGlow)" stroke-width="2.5" stroke-dasharray="6 4" />
+  <rect x="35" y="35" width="730" height="480" rx="10" fill="#061224" fill-opacity="0.9" stroke="#10375c" stroke-width="1.5" />
+  
+  <!-- Cloud Icon -->
+  <path d="M400 90c-11 0-20.5 7.2-23.7 17.2-2.3-.8-4.7-1.2-7.3-1.2-11 0-20 9-20 20 0 1.2.1 2.3.3 3.4-9.3 2.1-16.3 10.4-16.3 20.6 0 11.6 9.4 21 21 21h46c12.7 0 23-10.3 23-23 0-11-7.7-20.2-18-22.5 0-1-.1-1.9-.1-2.9 0-17.7-14.3-32.6-32.6-32.6z" fill="#0078d4" opacity="0.3"/>
+  <circle cx="400" cy="115" r="28" fill="#0078d4" fill-opacity="0.2" stroke="#50e6ff" stroke-width="2" />
+  <text x="400" y="122" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold" text-anchor="middle" fill="#50e6ff">AZURE</text>
+
+  <text x="400" y="172" font-family="'Inter', sans-serif" font-size="13" font-weight="600" letter-spacing="3" text-anchor="middle" fill="#50e6ff">MICROSOFT LEARN • LEARNING PATH</text>
+  <text x="400" y="215" font-family="'Inter', sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#f8fafc">Microsoft Azure Fundamentals</text>
+  <text x="400" y="240" font-family="'Inter', sans-serif" font-size="16" font-weight="500" text-anchor="middle" fill="#94a3b8">Describe Cloud Concepts (AZ-900 Core Domains)</text>
+  
+  <text x="400" y="280" font-family="'Inter', sans-serif" font-size="13" letter-spacing="2" text-anchor="middle" fill="#64748b">AWARDED TO</text>
+  <text x="400" y="325" font-family="'Inter', sans-serif" font-size="28" font-weight="800" text-anchor="middle" fill="#38bdf8">SARAL NITHISOMBATSAKUL</text>
+  
+  <text x="400" y="365" font-family="'Inter', sans-serif" font-size="13" text-anchor="middle" fill="#94a3b8">For demonstrating solid comprehension of Cloud Computing benefits, IaaS/PaaS/SaaS</text>
+  <text x="400" y="385" font-family="'Inter', sans-serif" font-size="13" text-anchor="middle" fill="#94a3b8">models, High Availability, Scalability, and Global Cloud Infrastructure.</text>
+  
+  <line x1="150" y1="435" x2="330" y2="435" stroke="#1e293b" stroke-width="1.5" />
+  <text x="240" y="460" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle" fill="#94a3b8">Issued: March 19, 2025</text>
+  
+  <line x1="470" y1="435" x2="650" y2="435" stroke="#1e293b" stroke-width="1.5" />
+  <text x="560" y="460" font-family="'JetBrains Mono', monospace" font-size="12" text-anchor="middle" fill="#50e6ff">ID: apavptq7</text>
+</svg>
