@@ -57,18 +57,5 @@ export const certificatesData: CertificateItem[] = [
     pdfUrl: getAssetUrl('/assets/certificates/aws-genai-academy.pdf'),
     image: getAssetUrl('/assets/certificates/cert-aws.svg'),
     badge: 'Generative AI'
-  },
-  {
-    id: 'cert-digital-graphics',
-    title: {
-      en: 'High Vocational Certificate in Digital Graphics (Outstanding GPAX 3.72)',
-      th: 'ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) สาขาดิจิทัลกราฟิก (เกรดเฉลี่ย 3.72)'
-    },
-    issuer: 'Siam Technological College',
-    date: '2023',
-    credentialId: 'SIAMTECH-DG-3720',
-    verifyUrl: 'https://github.com/AomsinSPU',
-    image: getAssetUrl('/assets/projects/cert-graphics.svg'),
-    badge: 'Digital Assets'
   }
 ];

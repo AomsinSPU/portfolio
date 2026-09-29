@@ -105,7 +105,7 @@ export const About: React.FC = () => {
                   Unique Technical Blend
                 </p>
                 <p className="text-xs text-slate-700 dark:text-slate-300 leading-normal">
-                  Background in 3D Digital Graphics (GPAX 3.72) brings superior spatial intuition and visual polish to frontend development, while Computer Science training delivers architectural rigor to backend APIs and relational database models.
+                  Background in 3D Digital Graphics brings superior spatial intuition and visual polish to frontend development, while Computer Science training delivers architectural rigor to backend APIs and relational database models.
                 </p>
               </div>
             </Card>
