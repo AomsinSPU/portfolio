@@ -14,11 +14,11 @@ export const personalInfo = {
     en: 'Software Innovation & Scalable Web Architectures',
     th: 'นวัตกรรมซอฟต์แวร์ และสถาปัตยกรรมเว็บสเกลใหญ่'
   },
-  email: 'neoneonsa22@gmail.com',
-  phone: '+66 80 597 0938',
+  email: 'saral.nit@spumail.net',
+  phone: '080-597-0938',
   location: {
-    en: 'Bangkok, Thailand',
-    th: 'กรุงเทพมหานคร, ประเทศไทย'
+    en: '154/53 Itsaraphap Rd., Bangkok, Thailand',
+    th: '154/53 ถนนอิสรภาพ แขวงวัดท่าพระ เขตบางกอกใหญ่ กรุงเทพฯ 10600'
   },
   github: 'https://github.com/AomsinSPU',
   githubUsername: 'AomsinSPU',
@@ -31,7 +31,7 @@ export const personalInfo = {
   },
   languages: [
     { name: { en: 'Thai', th: 'ไทย' }, level: { en: 'Native Speaker', th: 'ภาษาแม่' } },
-    { name: { en: 'English', th: 'อังกฤษ' }, level: { en: 'Technical / Working Proficiency', th: 'ระดับใช้งานเพื่อการทำงาน & เอกสารเทคนิค' } }
+    { name: { en: 'English', th: 'อังกฤษ' }, level: { en: 'Basic / Technical Proficiency', th: 'ระดับพื้นฐานเพื่อการทำงาน' } }
   ]
 };
 
@@ -43,25 +43,25 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
       th: 'เรซูเม่ตำแหน่ง Software Developer (ฉบับภาษาไทย)'
     },
     subtitle: {
-      en: '1-Page Concise Overview for Tech Recruiters & Hiring Managers',
-      th: 'ฉบับย่อ 1 หน้า ออกแบบเพื่อ Recruiter และ Hiring Manager'
+      en: 'Modern Two-Column Layout with Profile, Skills, Projects & References',
+      th: 'ดีไซน์ 2 คอลัมน์ทันสมัย พร้อมทักษะ, โปรเจกต์, ประสบการณ์ และบุคคลอ้างอิง'
     },
     description: {
-      en: 'High-impact summary highlighting Full-Stack skills (React, Node.js, ASP.NET Core), key production-level projects, work history, and academic GPAX (3.82).',
-      th: 'สรุปจุดเด่นด้านทักษะ Full-Stack (React, Node.js, .NET), โปรเจกต์สำคัญ, ประสบการณ์การทำงาน และผลการเรียน GPAX 3.82'
+      en: 'Structured 1-page modern executive resume highlighting React.js, Node.js, ASP.NET Core, AWS GenAI certification, Badminton Booking System, and references.',
+      th: 'เรซูเม่ฉบับย่อ 1 หน้า ออกแบบสไตล์โมเดิร์น 2 คอลัมน์ ไฮไลต์ทักษะ Full-Stack (React, Node.js, ASP.NET Core), ใบรับรอง AWS GenAI, ระบบจองสนามแบดมินตัน และบุคคลอ้างอิง'
     },
     highlights: {
       en: [
-        'Single-page ATS-optimized format',
+        'Modern 2-column layout format with clear executive styling',
         'Direct focus on Full-Stack / Backend software development roles',
-        'Summarized key metrics (GPAX 3.82, Badminton & KickHub platforms, 3D Asset Freelance)',
-        'Compact technical stack breakdown'
+        'AWS Academy Graduate - Generative AI Foundations included',
+        'Verified academic GPAX (3.82), youth council & formal references'
       ],
       th: [
-        'ฟอร์แมต 1 หน้ากระดาษ เหมาะสำหรับการสแกนของระบบรับสมัครงาน',
-        'โฟกัสตำแหน่ง Full-Stack / Backend Developer โดยตรง',
-        'สรุปข้อมูลเชิงสถิติ (GPAX 3.82, ระบบจองสนามแบดมินตัน, KickHub, ประสบการณ์ 3D)',
-        'กระชับ ชัดเจน พร้อมสำหรับการสัมภาษณ์งาน'
+        'โครงสร้างเรซูเม่ 2 คอลัมน์ ดีไซน์ทันสมัยตามมาตรฐานสากล',
+        'โฟกัสตำแหน่ง Full-Stack หรือ Backend Developer และ AI Engineer โดยตรง',
+        'มีใบรับรอง AWS Academy Graduate - Generative AI Foundations',
+        'ระบุประวัติการศึกษา (GPAX 3.82), กิจกรรมนอกหลักสูตร และบุคคลอ้างอิงครบถ้วน'
       ]
     },
     pdfUrl: getAssetUrl('/assets/resume-thai.pdf'),
@@ -75,25 +75,25 @@ export const documentOptions: Record<'resume' | 'cv', DocumentInfo> = {
       th: 'ประวัติฉบับเต็ม (CV ฉบับภาษาไทย)'
     },
     subtitle: {
-      en: 'Detailed Academic, Technical Systems & Cross-Domain Portfolio',
-      th: 'ประวัติการศึกษา โครงการเชิงวิศวกรรมซอฟต์แวร์ และผลงานครบทุกมิติ'
+      en: 'Detailed Professional Track Record, Work History & Full Architecture Stack',
+      th: 'ประวัติวิชาชีพฉบับสมบูรณ์ ประสบการณ์ทำงานจริง และสถาปัตยกรรมระบบ'
     },
     description: {
-      en: 'Complete academic profile detailing Software Innovation coursework at SPU, High Vocational Certificate in Digital Graphics at Siamtech, full architecture breakdowns, and freelance asset engineering.',
-      th: 'ประวัติวิชาการฉบับสมบูรณ์ รายวิชาเฉพาะทางนวัตกรรมซอฟต์แวร์ มหาวิทยาลัยศรีปทุม, ปวส. ดิจิทัลกราฟิก วิทยาลัยเทคโนโลยีสยาม, และรายละเอียดสถาปัตยกรรมระบบทั้งหมด'
+      en: 'Comprehensive professional CV detailing work experience at Trump shop (3D Design), AIA (Data entry), and 4 Mangkon (Graphic Design), alongside complete tech stack breakdown and academic GPAX (3.82).',
+      th: 'ประวัติการทำงานฉบับละเอียด บันทึกประสบการณ์จริงที่ Trump shop (ออกแบบโมเดล 3D), AIA (Data entry) และ 4 มังกร (Graphic Designer) พร้อมแจกแจงทักษะเชิงลึกครบถ้วน'
     },
     highlights: {
       en: [
-        'Comprehensive multi-page academic & engineering track record',
-        'In-depth system schemas and hybrid database design documentation',
-        'Academic coursework breakdowns (Data Structures, OOP, Software Architecture)',
-        'Complete freelance and data entry verification history'
+        'Complete work history (Trump shop 3D, AIA Data Entry, 4 Mangkon Graphic)',
+        'In-depth breakdown of Languages, Frameworks, Databases & Methodologies',
+        'Academic credentials: Siamtech High Vocational (3.72) & SPU Computer Science (3.82)',
+        'Formal and standardized presentation for enterprise recruitment'
       ],
       th: [
-        'บันทึกประวัติการศึกษาและวิศวกรรมซอฟต์แวร์อย่างละเอียด',
-        'คำอธิบายสถาปัตยกรรมระบบและฐานข้อมูลไฮบริด (SQL + NoSQL)',
-        'แจกแจงรายวิชาหลัก (Data Structures, OOP, Software Architecture)',
-        'ประวัติการออกแบบโมเดล 3D ดิจิทัลและงานตรวจสอบข้อมูลองค์กร'
+        'บันทึกประวัติการทำงานจริงอย่างละเอียด (Trump shop 3D, AIA Data Entry, 4 มังกร)',
+        'แจกแจงทักษะเทคนิคเชิงลึกครบทั้ง Languages, Frameworks, Databases และ Tools',
+        'ข้อมูลการศึกษา ปวส. สยามเทค (3.72) และ ป.ตรี มหาวิทยาลัยศรีปทุม (3.82)',
+        'รูปแบบเอกสารทางการ เหมาะสำหรับการยื่นสมัครงานและองค์กรชั้นนำ'
       ]
     },
     pdfUrl: getAssetUrl('/assets/cv-thai.pdf'),
